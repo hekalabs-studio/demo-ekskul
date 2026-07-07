@@ -114,6 +114,11 @@
     margin-top: 200px;
     z-index:3;
   }
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .title-line{
     display:block;
     font-size:clamp(32px, 8vw, 64px);
