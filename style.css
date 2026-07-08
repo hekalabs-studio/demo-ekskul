@@ -11,6 +11,7 @@
     --cream:#f5fbea;
     --ink:#173a1c;
     --panel-border:#1e2b1c;
+    --purple-devpath:#b967d9;
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -128,7 +129,7 @@
     opacity:0;
     transform: translateY(-60px) rotate(-3deg);
   }
-  .title-line.robotic{ color:var(--grass-light); }
+  .title-line.robotic{ color:var(--purple-devpath); }
   .title-line.coding{ color:var(--gold); position:relative; }
   .plus-badge{
     display:inline-flex;
@@ -344,4 +345,16 @@
   .edit-hint{
     display:inline-block; margin-top:8px; font-size:10px; color:#8a5cf5;
     background:#f1ecff; border:1px solid #c9b8ff; padding:3px 8px; border-radius:10px;
+  }
+
+  .ig {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--gold-dark);
+    box-shadow: 1px 1px 10px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
